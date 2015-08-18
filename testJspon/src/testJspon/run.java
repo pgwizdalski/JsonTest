@@ -19,6 +19,7 @@ public class run {
 			TagNode tagNode = new HtmlCleaner(props).clean(new File("C:\\root\\test2.html"), "UTF-8");
 
 			System.out.println(tagNode.getName());
+			System.out.println(tagNode.getName());
 				
 				tagNode.setAttribute("style", "height:101%;");
 			
